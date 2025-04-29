@@ -7,9 +7,21 @@ using namespace std;
         string nama;
         float nilai;
 
+        void print_date(){
+            cout << "NIM = " << nim << endl;
+            cout << "Nama = " << nama << endl;
+            cout << "Nilai = " << nim << endl;
+        }
+
     };
   
 
 int main() {
+    mahasiswa mhs;
+    mhs.nim = 2024;
+    mhs.nama = "Al bukhari";
+    mhs.nilai = 100
+
+    
     
 }
